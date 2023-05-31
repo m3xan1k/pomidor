@@ -20,7 +20,6 @@ int main(int argc, char** argv)
             case 'l':
                 LONG_BREAK = atoi(optarg);
             case 'm':
-                printf("MMM");
                 MAX_CYCLES = atoi(optarg);
             case ':':
                 handle_error(opt, optarg, atoi(optarg));
