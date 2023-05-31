@@ -1,7 +1,7 @@
-CC 			= cc
-CFLAGS 		= -Wall
-OBJFILES 	= pomidor.o main.o
-TARGET      = pomidor
+CC       = cc
+CFLAGS   = -Wall
+OBJFILES = pomidor.o main.o
+TARGET   = pomidor
 
 all: $(TARGET)
 
